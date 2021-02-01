@@ -1,3 +1,12 @@
 .App {
   text-align: center;
 }
+body{
+  background-color:whitesmoke;
+}
+
+.main_Component{
+  display: flex;
+  padding: 16px 19px 0 18px;
+}
+
