@@ -1,9 +1,9 @@
 import React from 'react'
 import logo from './logo.svg';
 import './App.css';
-import Header from './Header';
-import CartItems from './CartItems';
-import CartTotalBlance from './CartTotalBlance';
+import Header from './components/Header';
+import CartItems from './components/CartItems';
+import CartTotalBlance from './components/CartTotalBlance';
 
 function App() {
   return (

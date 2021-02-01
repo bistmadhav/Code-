@@ -4,7 +4,7 @@ import './CartTotalBlance.css'
 function CartTotalBlance() {
     return (
         <div className = "total_blance">
-             <h1> Totam Amount</h1>
+             <h1> Total Amount</h1>
         </div>
     )
 }
