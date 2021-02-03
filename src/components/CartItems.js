@@ -1,13 +1,13 @@
 import React from 'react'
 import './CartItems.css'
-import indv_CartItems from './indv_CartItems'
+import ind_Iteam from './ind_Iteam'
 function CartItems() {
     return (
         <div className = "list_Of_Items">
             <h1>Items</h1>
         <hr/>
         <div className = "items-list">
-            <indv_CartItems/>
+             <ind_Iteam />
         </div>
         </div>
     )
