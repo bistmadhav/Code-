@@ -23,9 +23,23 @@
 .iteamInfo
 {
   flex-grow: 1;
+  padding: 10px;
+  
 }
 
 .typeOfGrocery
 {
   color:darkgreen;
 }
+
+.StockOrNot
+{
+  color: blue;
+}
+
+.deleteBtn
+{
+  color: red;
+}
+
+
