@@ -1,8 +1,31 @@
 .list_Of_Items{
-    flex: 0.70;
     margin-right: 18px;
+    flex: 0.70;
     background-color: aliceblue;
     text-align: left;
     padding: 20px;
   }
- 
+.Ind_Product
+{
+  display: flex;
+}
+.ImageOfProduct
+{ 
+  width: 250px;
+  height: 250px;
+}
+
+.ImageOfProduct img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.iteamInfo
+{
+  flex-grow: 1;
+}
+
+.typeOfGrocery
+{
+  color:darkgreen;
+}

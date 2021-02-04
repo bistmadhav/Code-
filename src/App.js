@@ -10,8 +10,9 @@ function App() {
     <div className="App">
       <Header/>
       <div className = "main_Component">
-          <CartItems />
-          <CartTotalBlance/>
+       <CartItems/>
+
+       <CartTotalBlance/> 
       </div>
       </div>
   );
