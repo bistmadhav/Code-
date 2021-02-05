@@ -46,19 +46,35 @@
 .deleteBtn
 {
   color: red;
+  margin: 8px;
 }
 
 .option
 {
   display: flex;
 
-  
+
 }
 
 .number
 {
   
-  width:70px;
+  width:75px;
   
-  
+}
+
+.opt{
+  height: 35px;
+  border-radius: 6px;
+  color:black;
+  font-size: 16px;
+
+}
+
+.opt:hover {
+  background-color:lightgreen;
+}
+.Price{
+  font-size: xx-large;
+    
 }

@@ -20,7 +20,7 @@ function CartItems() {
                    </div>
                    <div className = "option">
                      <div  className = "number">
-                                <select>
+                                <select className ="opt">
                                     <option  value="1"> Qty:1</option>
                                     <option  value="1"> Qty:2</option>
                                     <option  value="1"> Qty:3</option>
