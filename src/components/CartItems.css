@@ -4,10 +4,13 @@
     background-color: aliceblue;
     text-align: left;
     padding: 20px;
+ 
+    
   }
 .Ind_Product
 {
   display: flex;
+ 
 }
 .ImageOfProduct
 { 
@@ -24,12 +27,15 @@
 {
   flex-grow: 1;
   padding: 10px;
+   
   
 }
 
 .typeOfGrocery
 {
   color:darkgreen;
+ 
+  
 }
 
 .StockOrNot
@@ -42,4 +48,17 @@
   color: red;
 }
 
+.option
+{
+  display: flex;
 
+  
+}
+
+.number
+{
+  
+  width:70px;
+  
+  
+}

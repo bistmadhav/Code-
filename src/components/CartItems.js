@@ -20,12 +20,25 @@ function CartItems() {
                    </div>
                    <div className = "option">
                      <div  className = "number">
-
+                                <select>
+                                    <option  value="1"> Qty:1</option>
+                                    <option  value="1"> Qty:2</option>
+                                    <option  value="1"> Qty:3</option>
+                                    <option  value="1"> Qty:4</option>
+                                    <option  value="1"> Qty:5</option>
+                                    <option  value="1"> Qty:6</option>
+                                    <option  value="1"> Qty:7</option>
+                                    <option  value="1"> Qty:8</option>
+                                    <option  value="1"> Qty:9</option>
+                                    <option  value="1"> Qty:10</option>
+                                    <option  value="1"> Qty:11</option>
+                                    <option  value="1"> Qty:12</option>
+                                </select>
                      </div>
                     <div className = "deleteBtn">
                         Delete
-                    </div>
-                   </div>
+                 </div>
+                 </div>
                 </div>
                 <div className = "Price">
                     $0.50
