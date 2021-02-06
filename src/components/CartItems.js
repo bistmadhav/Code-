@@ -1,7 +1,8 @@
 import React from 'react'
 import './CartItems.css'
 
-function CartItems() {
+function CartItems(items) {
+    
     return (
         <div className = "list_Of_Items">
             <h1>Items</h1>
