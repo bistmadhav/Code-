@@ -1,7 +1,9 @@
 .app_header{
-    background: cornflowerblue;
+  background: rgb(9,94,84);
       color:white;
       display: flex;
-    justify-content: center;
+    justify-content:center;
+    font-family: initial;
+    font-size: 19px;
   }
   

@@ -1,14 +1,18 @@
 import React from 'react'
 import './CartItems.css'
 
-function CartItems(items) {
+function CartItems({items}) {
     
     return (
         <div className = "list_Of_Items">
             <h1>Items</h1>
-    <hr />
+            <hr />
+    { items.map((item) => 
+    
             <div className = "Ind_Product">
+          
             <div className = "ImageOfProduct">
+               
                  <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-ZiDzN8XqpVvs-hfcSd-N-8ur3kbXyIw_CA&usqp=CAU" />  
             </div>
                 <div className = "iteamInfo">
@@ -44,12 +48,13 @@ function CartItems(items) {
                 <div className = "Price">
                     $0.50
                 </div>
-            </div>
-        
-        
+            
+           </div>
+    )}
+
          </div>
      
-    )
+ )   
 }
 
 export default CartItems
