@@ -13,6 +13,7 @@ function App() {
     <div className="App">
       <Header/>
       <div className = "main_Component">
+        <hr/>
        <CartItems  items = {cartItems}/>
 
        <CartTotalBlance/> 

@@ -12,16 +12,16 @@ function CartItems({items}) {
             <div className = "Ind_Product">
           
             <div className = "ImageOfProduct">
-               
-                 <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-ZiDzN8XqpVvs-hfcSd-N-8ur3kbXyIw_CA&usqp=CAU" />  
+               <hr/>
+                 <img src = {process.env.PUBLIC_URL + '/items/'+ item.image} />  
             </div>
                 <div className = "iteamInfo">
                     <div className = "typeOfGrocery">
-                        <h2>Broccoli</h2>
+                        <h2>{item.title}</h2>
 
                     </div>
                    <div className = "StockOrNot" >
-                        In stock
+                        {item.stock}
                    </div>
                    <div className = "option">
                      <div  className = "number">
@@ -46,7 +46,7 @@ function CartItems({items}) {
                  </div>
                 </div>
                 <div className = "Price">
-                    $0.50
+                    ${item.price}
                 </div>
             
            </div>

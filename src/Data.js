@@ -1,37 +1,37 @@
 const items = [
     {
-       title: "Apple iPad Pro",
+       title: "Apple Computer ",
        stock: "In Stock",
-       image: "item-1.jpg",
-       price: "769.00",
+       image: "computer.jpg",
+       price: "1869.00",
        quantity: 1
     },
     {
-        title: "Beats Flex Wireless Earphones",
+        title: "Cofee Machine",
         stock: "In Stock",
-        image: "item-2.jpg",
+        image: "cofee.jpg",
         price: "49.88",
         quantity: 2
      },
      {
-        title: "De'Longhi La Specialista Espresso Machine with Knock Box",
+        title: "Airpod apple ",
         stock: "In Stock",
-        image: "item-3.jpg",
-        price: "745.05",
+        image: "airpod.jpeg",
+        price: "15.00",
         quantity: 1
      },
      {
-        title: "Oculus Quest 2 — Advanced All-In-One Virtual Reality Headset",
-        stock: "In stock on January 2, 2020",
-        image: "item-4.jpg",
-        price: "399.00",
+        title: "Chair for developer",
+        stock: "In  feb 2, 2021",
+        image: "chair.png",
+        price: "199.00",
         quantity: 1
      },
      {
-        title: "All-new Echo Dot (4th Gen) | Glacier White",
-        stock: "In stock on December 25, 2020",
-        image: "item-5.jpg",
-        price: "39.99",
+        title: "Table ",
+        stock: "In stock on jan 25, 2021",
+        image: "table.jpeg",
+        price: "129.59",
         quantity: 3
      },
 ]

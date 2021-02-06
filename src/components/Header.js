@@ -4,7 +4,7 @@ import './Header.css'
 function Header() {
     return (
         <div className = "app_header">
-             <h1> eGrocery</h1>
+             <h1> eCommerce</h1>
         </div>
     )
 }
