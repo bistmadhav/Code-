@@ -1,12 +1,25 @@
 import React from 'react'
 import './CartTotalBlance.css'
 
-function CartTotalBlance() {
+
+
+
+function CartTotalBlance({items}) {
+
+const totalBlance =() =>
+{
+   let totalMoney =0;
+   items.forEach((item) =>{
+      totalMoney += (item.price * item.quantity)
+   }) 
+   return totalMoney;
+}
+
     return (
         <div className = "total_blance">
-             <h2> Subtotal (0 items) = 
+             <h2> Subtotal ({items.length} items) = 
                  <span className = "Totalbalnce">
-                     $0.00
+                     ${totalBlance()}
                  </span>
              </h2>
              <button className = "btn">

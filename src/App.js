@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import logo from './logo.svg';
+
 import './App.css';
 import Header from './components/Header';
 import CartItems from './components/CartItems';
@@ -7,7 +7,7 @@ import CartTotalBlance from './components/CartTotalBlance';
 import data from './Data'
 
 function App() {
-  const [cartItems, setCartItems] = useState(data);
+  const [cartItems, setCartIems] = useState(data);
  
   return (
     <div className="App">
@@ -16,7 +16,7 @@ function App() {
         <hr/>
        <CartItems  items = {cartItems}/>
 
-       <CartTotalBlance/> 
+       <CartTotalBlance items = {cartItems}/> 
       </div>
       </div>
   );

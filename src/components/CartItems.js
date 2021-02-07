@@ -1,19 +1,27 @@
 import React from 'react'
 import './CartItems.css'
 
-function CartItems({items}) {
+
+
+function CartItems({items}){
+
+    const changingItem = (e) =>
+    {
+         console.log(e.target.value)
+    }
     
     return (
         <div className = "list_Of_Items">
             <h1>Items</h1>
             <hr />
-    { items.map((item) => 
-    
+    { items.map((item, index,changingItem) => 
+           
+            
             <div className = "Ind_Product">
           
             <div className = "ImageOfProduct">
                <hr/>
-                 <img src = {process.env.PUBLIC_URL + '/items/'+ item.image} />  
+                 <img src = {process.env.PUBLIC_URL + '/items/'+ item.image} alt=""/>  
             </div>
                 <div className = "iteamInfo">
                     <div className = "typeOfGrocery">
@@ -25,7 +33,11 @@ function CartItems({items}) {
                    </div>
                    <div className = "option">
                      <div  className = "number">
-                                <select className ="opt">
+                                <select
+                            
+    
+                            value= {item.quantity}
+                                className ="opt">
                                     <option  value="1"> Qty:1</option>
                                     <option  value="1"> Qty:2</option>
                                     <option  value="1"> Qty:3</option>
@@ -48,13 +60,20 @@ function CartItems({items}) {
                 <div className = "Price">
                     ${item.price}
                 </div>
-            
+                
+             
            </div>
+    
+    
+    
     )}
 
          </div>
      
- )   
+ ) 
+
+
+
 }
 
 export default CartItems
