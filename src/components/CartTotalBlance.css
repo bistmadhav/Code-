@@ -4,3 +4,21 @@
     background-color: aliceblue;
    
   }
+  .btn{
+    background: black;
+    font-style: oblique;
+    color: white;
+    height: 55px;
+    font-size: 25px;
+    border-radius: 9px;
+
+  }
+  .btn:hover{
+   background-color:blue;
+  }
+
+  
+
+  .Totalbalnce{
+     margin-left: 8px;
+  }

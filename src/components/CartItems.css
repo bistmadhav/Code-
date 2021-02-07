@@ -10,6 +10,7 @@
 .Ind_Product
 {
   display: flex;
+  flex-shrink: 0;
  
 }
 .ImageOfProduct
@@ -47,6 +48,7 @@
 {
   color: red;
   margin: 8px;
+  
 }
 
 .option
