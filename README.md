@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Click the line sentence that says (http://localhost:3000) on line 6 from this line you will see demo. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
