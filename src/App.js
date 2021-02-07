@@ -14,7 +14,7 @@ function App() {
       <Header/>
       <div className = "main_Component">
         <hr/>
-       <CartItems  items = {cartItems}/>
+       <CartItems  items = {cartItems} setCartIems ={setCartIems}/>
 
        <CartTotalBlance items = {cartItems}/> 
       </div>

@@ -3,11 +3,14 @@ import './CartItems.css'
 
 
 
-function CartItems({items}){
+function CartItems({items, setCartItems, index}){
 
     const changingItem = (e) =>
     {
-         console.log(e.target.value)
+         console.log(e.target.value);
+         const newItem = [...items];
+         items[index].quantity = e.target.value;
+         setCartItems(newItem);
     }
     
     return (
@@ -35,7 +38,7 @@ function CartItems({items}){
                      <div  className = "number">
                                 <select
                             
-    
+                             onChange ={changingItem}
                             value= {item.quantity}
                                 className ="opt">
                                     <option  value="1"> Qty:1</option>
